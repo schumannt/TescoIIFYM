@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="title"></h1>
+    <button id="add-button">Add item</button>
+    <h2>Running Total</h2>
+    <table id="running-totals-table" class="tg">
+      <tr>
+        <th class="tg-0lax"></th>
+        <th class="tg-0lax">Value</th>
+      </tr>
+      <tr>
+        <td class="tg-0lax">Kcals</td>
+        <td id="kcals" class="tg-0lax"></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">Carbs</td>
+        <td id="carbs" class="tg-0lax"></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">Proteins</td>
+        <td id="proteins" class="tg-0lax"></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">Fats</td>
+        <td id="fats" class="tg-0lax"></td>
+      </tr>
+    </table>
+
+    <script src="popup.js" charset="utf-8"></script>
+    <style type="text/css">
+      body {
+        width: 600px;
+      }
+      .tg {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+      .tg td {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        padding: 10px 5px;
+        border-style: solid;
+        border-width: 1px;
+        overflow: hidden;
+        word-break: normal;
+        border-color: black;
+      }
+      .tg th {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        padding: 10px 5px;
+        border-style: solid;
+        border-width: 1px;
+        overflow: hidden;
+        word-break: normal;
+        border-color: black;
+      }
+      .tg .tg-0lax {
+        text-align: left;
+        vertical-align: top;
+      }
+    </style>
+  </body>
+</html>
